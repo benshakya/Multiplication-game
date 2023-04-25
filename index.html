@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiply game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form" id="form">
+      <div class="score-section">
+        <p id="score" class="score">score: 0</p>
+        <button class="reset-btn">
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+      </div>
+      <div class="question-section">
+        <h1 class="question" id="question">What is 2 multiplied by 5?</h1>
+        <input
+          type="text"
+          class="input"
+          id="input"
+          autofocus
+          placeholder="Enter your answer"
+        />
+        <button class="submit-btn" id="submit-btn">Submit</button>
+      </div>
+    </form>
+    <div class="msg"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
